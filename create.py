@@ -10,8 +10,8 @@ browser.get("https://github.com/login")
 
 
 if __name__ == "__main__":
-    #Path = os.path.join(Parentpath , FolderName)
-    #os.makedirs(Path)
+    Path = os.path.join(Parentpath , FolderName)
+    os.makedirs(Path)
     python_button = browser.find_elements_by_xpath("/html/body/div[3]/main/div/div[4]/form/input[2]")[0]
     python_button.send_keys('rithesh6')
     python_button = browser.find_elements_by_xpath("/html/body/div[3]/main/div/div[4]/form/div/input[1]")[0]
