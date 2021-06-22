@@ -14,7 +14,7 @@ if __name__ == "__main__":
     python_button = browser.find_elements_by_xpath("/html/body/div[3]/main/div/div[4]/form/input[2]")[0]
     python_button.send_keys('rithesh6')
     python_button = browser.find_elements_by_xpath("/html/body/div[3]/main/div/div[4]/form/div/input[1]")[0]
-    python_button.send_keys('IcwU357%')
+    python_button.send_keys('')
     python_button = browser.find_elements_by_xpath("/html/body/div[3]/main/div/div[4]/form/div/input[12]")[0]
     python_button.click()
     browser.get('https://github.com/new')
